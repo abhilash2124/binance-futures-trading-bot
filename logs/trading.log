@@ -29,3 +29,6 @@
 2026-03-26 09:47:31,730 - INFO - Order Request | Symbol=BTCUSDT, Side=BUY, Type=MARKET, Quantity=0.002, Price=None
 2026-03-26 09:47:32,613 - INFO - Response: {'orderId': 12994113844, 'symbol': 'BTCUSDT', 'status': 'NEW', 'clientOrderId': 'x-Cb7ytekJb0ca072580f660eeaf45b', 'price': '0.00', 'avgPrice': '0.00', 'origQty': '0.002', 'executedQty': '0.000', 'cumQty': '0.000', 'cumQuote': '0.00000', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1774498653342}
 2026-03-26 09:47:32,614 - INFO - Order placed successfully
+2026-03-26 10:07:29,290 - INFO - Order Request | Symbol=BTCUSDT, Side=SELL, Type=LIMIT, Quantity=0.002, Price=60000.0
+2026-03-26 10:07:29,770 - INFO - Response: {'error': "APIError(code=-4024): Limit price can't be lower than 67276.34."}
+2026-03-26 10:07:29,770 - ERROR - Order Failed: APIError(code=-4024): Limit price can't be lower than 67276.34.
